@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote fetch="git://git.yoctoproject.org" name="yocto"/>
+	<remote fetch="../" name="gw" />
 
-	<project remote="yocto" revision="refs/tags/yocto-2.1" name="poky" />
+	<project remote="yocto" name="poky" revision="refs/tags/yocto-2.1" />
+	<project remote="gw" name="meta-tqmt1042" path="poky/meta-tqmt1042" revision="master" />
 </manifest>
