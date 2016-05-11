@@ -4,5 +4,9 @@
 	<remote fetch="../" name="gw" />
 
 	<project remote="yocto" name="poky" revision="refs/tags/yocto-2.1" />
+	<project
+		remote="yocto" name="meta-fsl-ppc" path="poky/meta-fsl-ppc"
+		revision="ebe696fc7e7b93d0056372bf2e24bf09746d0f4a"
+	/>
 	<project remote="gw" name="meta-tqmt1042" path="poky/meta-tqmt1042" revision="master" />
 </manifest>
