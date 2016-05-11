@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote fetch="git://git.yoctoproject.org" name="yocto"/>
-	<remote fetch="../" name="gw" />
+	<remote name="yocto" fetch="git://git.yoctoproject.org" />
+	<remote name="gw" fetch="../" />
 
-	<project remote="yocto" name="poky" revision="refs/tags/yocto-2.1" />
+	<project name="poky" revision="refs/tags/yocto-2.1" remote="yocto" />
 	<project
-		remote="yocto" name="meta-fsl-ppc" path="poky/meta-fsl-ppc"
+		name="meta-fsl-ppc" path="poky/meta-fsl-ppc"
 		revision="ebe696fc7e7b93d0056372bf2e24bf09746d0f4a"
+		remote="yocto"
 	/>
-	<project remote="gw" name="meta-tqmt1042" path="poky/meta-tqmt1042" revision="master" />
+	<project
+		name="meta-tqmt1042" path="poky/meta-tqmt1042"
+		revision="master"
+		remote="gw"
+	/>
 </manifest>
