@@ -3,10 +3,10 @@
 	<remote name="yocto" fetch="git://git.yoctoproject.org" />
 	<remote name="gw" fetch="../" />
 
-	<project name="poky" revision="refs/tags/yocto-2.1" remote="yocto" />
+	<project name="poky" revision="refs/tags/yocto-2.0.1" remote="yocto" />
 	<project
 		name="meta-fsl-ppc" path="poky/meta-fsl-ppc"
-		revision="ebe696fc7e7b93d0056372bf2e24bf09746d0f4a"
+		revision="d9443cbd98f2d4717d84d8325fc6099f5a3e6a25"
 		remote="yocto"
 	/>
 	<project
