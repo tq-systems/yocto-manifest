@@ -10,7 +10,7 @@
 		remote="yocto"
 	/>
 	<project
-		name="meta-tqmt1042" path="poky/meta-tqmt1042"
+		name="meta-tq-powerarch" path="poky/meta-tq-powerarch"
 		revision="master"
 		remote="gw"
 	/>
