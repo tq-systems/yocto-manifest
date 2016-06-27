@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yocto" fetch="git://git.yoctoproject.org" />
-	<remote name="gw" fetch="../" />
+	<remote name="tq" fetch="../" />
 
 	<project name="poky" revision="refs/tags/yocto-2.0.1" remote="yocto" />
 	<project
@@ -12,6 +12,6 @@
 	<project
 		name="meta-tq-powerarch" path="poky/meta-tq-powerarch"
 		revision="master"
-		remote="gw"
+		remote="tq"
 	/>
 </manifest>
