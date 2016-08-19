@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="yocto" fetch="git://git.yoctoproject.org" />
-	<remote name="tq" fetch="../" />
+	<remote name="tq" fetch="./" />
 
 	<project name="poky" revision="refs/tags/yocto-2.0.1" remote="yocto" />
 	<project
