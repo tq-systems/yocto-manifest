@@ -11,7 +11,7 @@
 	/>
 	<project
 		name="meta-tq-powerarch" path="poky/meta-tq-powerarch"
-		revision="master"
+		revision="jethro-tqmtxxxx"
 		remote="tq"
 	/>
 </manifest>
